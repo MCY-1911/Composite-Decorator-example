@@ -18,4 +18,8 @@ fun main() {
 
     val cantidad: Int = envio.cuenta()
     println("El envío a Asia contiene $cantidad unidades de té")
+
+//    var prueba: BaseDecorator = CorreoDecorator(envio)
+//    prueba = MensajeDeTextoDecorator(prueba)
+//    prueba.cuenta()
 }
